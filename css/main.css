@@ -1,0 +1,147 @@
+#survey {
+  background: #fff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  bottom: 0;
+  right: 20px;
+  height: 600px;
+  position: fixed;
+  width: 350px;
+}
+
+#survey > form > #header {
+	height: 2.5rem;
+	background-color: #333;
+	border-bottom: 3px solid #1a6b96;
+}
+
+#survey > form > #header img {
+	width: 125px;
+	margin: 0.3rem 0 0.3rem 1.2rem;
+}
+
+#survey > form > #header > .close-icon {
+	float: right;
+	color: white;
+	margin: .7rem 1.2rem;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+#survey > form > #content {
+	font-family: sans-serif;
+	margin: 2rem 2.5rem 2rem 2.5rem;
+}
+
+#survey > form > #content > h5 {
+	font-size: 1.3em;
+	font-weight: bold;
+	margin-bottom: 1.8rem;
+}
+
+#survey > form > #content > .row {
+	margin: 1.2rem 0 1.2rem;
+}
+
+#survey > form > #content > .row > h6 {
+	font-size: .9em;
+	margin-bottom: 0.5rem;
+}
+
+#survey > form > #content > .row > input[type="text"] {
+	width: 95%;
+	line-height: 2rem;
+	font-size: .8rem;
+	font-family: inherit;
+	border: 1px solid #ccc;
+	border-radius: .2rem;
+	padding-left: .8rem;
+}
+
+#survey > form > #content > .row > select {
+	width: 100%;
+	display: block;
+	padding: .5rem;
+	font-size: .8rem;
+	font-family: inherit;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: .25rem;
+}
+
+#survey > form > #content > .row > textarea {
+	width: 90%;
+	line-height: 1rem;
+	font-size: .8rem;
+	font-family: inherit;
+	border: 1px solid #ccc;
+	border-radius: .2rem;
+	padding: .8rem;
+}
+
+#survey > form > #content > .row > input[type="text"]:focus,
+#survey > form > #content > .row > select:focus,
+#survey > form > #content > .row > textarea:focus {
+	border: 1px solid #a5c7fe;
+	background-color: #e0f4ff;
+}
+
+#survey > form > #content > .row.error {
+	color: #ff0000;
+}
+
+#survey > form > #content > .row.error > input[type="text"] {
+	color: inherit;
+	border-color: #ff0000;
+	background-color: #ffc0cb;
+}
+
+#survey > form > #content > .row > button {
+	height: 35px;
+	width: 140px;
+	color: #fff;
+	border-color: #0275d8;
+	background-color: #1a6b96;
+	padding: .375rem 1rem;
+	font-size: .8rem;
+	border: .0625rem solid transparent;
+	border-radius: .25rem;
+	margin-bottom: .6rem;
+	cursor: pointer;
+}
+
+#survey > form > #content > .row > p {
+	line-height: 140%;
+}
+
+#survey > form > #content > .row > small {
+	font-size: .7rem;
+	display: block;
+}
+
+#survey > form > #footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: .6rem;
+  background-color: #ccc;
+  text-align: center;
+  font-size: .7em;
+}
+
+.right {
+	text-align: right;
+}
+
+::-webkit-input-placeholder {
+   font-style: italic;
+}
+:-moz-placeholder {
+   font-style: italic;
+}
+::-moz-placeholder {
+   font-style: italic;
+}
+:-ms-input-placeholder {
+   font-style: italic;
+}
